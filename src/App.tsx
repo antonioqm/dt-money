@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 
-function App() {
+import { Dashboard } from "./Components/Dashboard/inedx";
+import { Header } from "./Components/Header/Header";
+import { GlobalStyle } from "./styles/globals";
+export function App() {
+
   return (
-    <div className="App">
-     <h1>Hello World</h1>
-    </div>
+    <>
+     <Header />
+     <Dashboard/>
+     <GlobalStyle />
+    </>
   );
 }
 
-export default App;
+
