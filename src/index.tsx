@@ -22,11 +22,11 @@ createServer({
         },
         {
           id: 2,
-          title: 'Aluguel',
+          title: 'Financiamento',
           type: 'withdraw',
           category: 'Casa',
-          amount: 8000,
-          createdAt: new Date('2022-02-14 11:00:00')
+          amount: 2300,
+          createdAt: new Date('2022-01-14 11:00:00')
         },
       ]
     })
